@@ -52,7 +52,7 @@ export function MobileMenu() {
       </SheetTrigger>
       <SheetContent side="left" className="w-full max-w-[300px] sm:max-w-[340px] p-0">
         <SheetHeader className="p-4 border-b">
-          <SheetTitle>Frontend ACE</SheetTitle>
+          <SheetTitle>Stack Ace</SheetTitle>
         </SheetHeader>
         <div className="px-4 py-3 flex items-center gap-4">
           <Avatar className="h-10 w-10">

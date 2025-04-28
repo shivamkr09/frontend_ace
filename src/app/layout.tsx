@@ -10,8 +10,8 @@ import { Footer } from '../components/footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Frontend ACE',
-  description: 'Practice frontend development with interactive coding challenges',
+  title: 'Stack Ace',
+  description: 'Practice your coding skills with interactive coding challenges',
 };
 
 export default function RootLayout({

@@ -4,6 +4,8 @@ import { Button } from "../components/ui/button"
 import Link from "next/link"
 import { Github, Linkedin, Twitter, DiscIcon as Discord } from 'lucide-react'
 import { usePathname } from "next/navigation"
+import Image from "next/image"
+import logo from '../../assets/logo.png'
 
 export function Footer() {
   const path=usePathname();
@@ -16,7 +18,7 @@ export function Footer() {
         <div  className="grid grid-cols-1 md:grid-cols-5 gap-8">
           <div className="md:col-span-2">
             <Link href="/" className="inline-block mb-6">
-              <h3 className="text-xl font-bold">Frontend ACE</h3>
+              <Image src={logo} alt="logo" width={200} height={100}/>
             </Link>
             <div className="space-y-4">
               <h4 className="font-medium">Subscribe to our newsletter</h4>
@@ -82,7 +84,7 @@ export function Footer() {
             </div>
 
             <div className="flex items-center gap-4 text-sm text-muted-foreground">
-              <span>© 2025 Frontend ACE. All rights reserved.</span>
+              <span>© 2025 Stack Ace. All rights reserved.</span>
               <Link href="#" className="hover:text-foreground">Privacy Policy</Link>
               <Link href="#" className="hover:text-foreground">Terms of Service</Link>
             </div>

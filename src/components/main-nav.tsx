@@ -24,6 +24,8 @@ import {
 } from "./ui/navigation-menu";
 import { ModeToggle } from "../components/mode-toggle";
 import { MobileMenu } from "./mobile-menu";
+import Image from "next/image";
+import logo from '../../assets/logo.png'
 
 export function MainNav() {
   const pathname = usePathname();
@@ -39,7 +41,8 @@ export function MainNav() {
       <div className="flex h-14 items-center">
         <div className="flex flex-row gap-4 justify-between">
           <Link href="/" className=" flex items-center space-x-2">
-            <span className="font-bold">Frontend ACE</span>
+            {/* <span className="font-bold">Stack Ace</span> */}
+            <Image src={logo} alt="logo" width={150} height={100}/>
           </Link>
 
           <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">

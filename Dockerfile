@@ -16,7 +16,7 @@ COPY package.json package-lock.json* .npmrc* ./
 # Install dependencies: checks for package-lock.json
 RUN \
   if [ -f yarn.lock ]; then yarn --frozen-lockfile; \
-  elif [ -f package-lock.json ]; then npm install --force; \
+  elif [ -f package-lock.json ]; then npm update && npm install --force; \
   else echo "Lockfile not found." && exit 1; \
   fi
 
