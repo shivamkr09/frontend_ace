@@ -268,23 +268,23 @@ import {
   Loader2,
 } from "lucide-react";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
+import { Button } from "../../../../components/ui/button";
+import { Badge } from "../../../../components/ui/badge";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
-import { Description } from "@/components/interviews/description";
+} from "../../../../components/ui/select";
+import { Description } from "../../../../components/interviews/description";
 import { Editor } from "@monaco-editor/react";
 import {
   ResizableHandle,
   ResizablePanel,
   ResizablePanelGroup,
-} from "@/components/ui/resizable";
-import { ProblemDescription } from "@/components/practice/problem-description";
+} from "../../../../components/ui/resizable";
+import { ProblemDescription } from "../../../../components/practice/problem-description";
 
 interface Challenge {
   title: string;

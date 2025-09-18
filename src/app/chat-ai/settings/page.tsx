@@ -1,4 +1,4 @@
-import SettingsPage from '@/components/chat-ai/settings-page'
+import SettingsPage from '../../../components/chat-ai/settings-page'
 import React from 'react'
 
 const Settings = () => {
