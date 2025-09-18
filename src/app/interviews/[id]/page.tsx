@@ -1,10 +1,10 @@
 'use client'
 import { Search } from "lucide-react"
-import { Badge } from "@/components/ui/badge"
-import { Card } from "@/components/ui/card"
-import { Checkbox } from "@/components/ui/checkbox"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { QuestionList } from "@/components/interviews/questions-list"
+import { Badge } from "../../../components/ui/badge"
+import { Card } from "../../../components/ui/card"
+import { Checkbox } from "../../../components/ui/checkbox"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../../../components/ui/select"
+import { QuestionList } from "../../../components/interviews/questions-list"
 import { useParams } from "next/navigation"
 
 
