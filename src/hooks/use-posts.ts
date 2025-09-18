@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from "react";
 import { fetchAllPosts } from "../lib/api/posts";
 import { PostProject } from "../lib/types/project";
 import { usePathname, useRouter } from "next/navigation";
-import { useAuth } from "@/contexts/auth-context";
+import { useAuth } from "../contexts/auth-context";
 import { toast } from "sonner";
 
 export function usePosts(token: string) {
